@@ -1,0 +1,28 @@
+# Dependencies / builds
+node_modules/
+**/node_modules/
+.next/
+dist/
+build/
+out/
+.cache/
+
+# Env & secrets
+.env
+.env.*
+*.env
+*.pem
+*.p12
+*.keystore
+*.key
+*.crt
+*.csr
+id_rsa
+id_rsa.pub
+service-account.json
+*.serviceaccount.json
+firebase-adminsdk-*.json
+
+# Logs & OS/editor
+*.log
+.DS_Store
